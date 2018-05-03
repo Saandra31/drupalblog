@@ -1,9 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,greek);
-<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 /* Reset unusual Firefox-on-Android default style, see https://github.com/necolas/normalize.css/issues/214*/
 @media (max-width: 991px) { .form-text, .form-search, .form-textarea, .block-superfish select, .block-search .form-submit { background-image: none; } }
 
-body { color: #444; font-family: 'Amatic SC', sans-serif; font-size: 14px; line-height: 160%; }
+body { color: #444; font-family: 'Amatic SC'; font-size: 14px; line-height: 160%; }
 
 p { margin: 0 0 25px; padding: 0; }
 
@@ -31,7 +30,7 @@ img { display: block; height: auto; max-width: 100%; }
 ::selection { color: #ffffff; }
 
 /*Heading*/
-h1, h2, h3, h4, h5, h6 { font-weight: 700; line-height: 120%; padding: 0; margin: 20px 0 10px 0; font-family: 'Amativ SC', cursive; }
+h1, h2, h3, h4, h5, h6 { font-weight: 700; line-height: 120%; padding: 0; margin: 20px 0 10px 0; font-family: 'Amatic SC'; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #444; }
 
@@ -332,7 +331,7 @@ min-height: 50px; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: n
 
 input.form-text:focus, input.form-email:focus, input.form-search:focus, textarea.form-textarea:focus { background-color: #fff; outline: none; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
 
-.search-block-form input.form-search { width: 70%; }
+.search-block-form input.form-search { width: 30%; }
 
 .dark input.form-text, .dark input.form-email, .dark input.form-search { border: none; }
 

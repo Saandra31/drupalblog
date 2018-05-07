@@ -8,6 +8,7 @@
 
 #bottom-content {
     color: #000000;
+	background-color: #A3CD39;
 }
 
 ul.menu li a, nav ul.links li a{
@@ -57,26 +58,30 @@ body{
 
 #search_hunger {
 	padding-left: 10px;
+	border: solid 1px #F43E71;
 }
 
 #search_button {
-    background-color: #4a4a4a; 
+    background-color: #F43E71;
     border: none;
     color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-	margin-bottom: 50px;
 }
-
 
 #top-content {
 	height: 100px;
 	padding: 0px;
-	background-color: #F43E71;
+	background-color: #4a4a4a;
+	padding: 0px;
 }
 
 form {
-	margin-bottom: 200px;
+
+}
+
+#banner-inside {
+	padding: 0px;
 }
 

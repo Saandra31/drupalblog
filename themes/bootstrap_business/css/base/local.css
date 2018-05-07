@@ -78,12 +78,15 @@ body{
 }
 
 form {
-	margin-bottom: 100px;
+	margin-bottom: 200px;
 }
 
 .content {
 	height: 125 px;
 }
 
-#banner {
+
+
+p {
+	margin-bottom: 100px;
 }

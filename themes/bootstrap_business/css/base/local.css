@@ -55,3 +55,35 @@ body{
 	align-items: center;
 	justify-content: center;
 }
+
+#search_hunger {
+	padding-left: 10px;
+}
+
+#search_button {
+    background-color: #4a4a4a; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	margin-bottom: 50px;
+}
+
+
+#top-content {
+	height: 100px;
+	padding: 0px;
+	background-color: #F43E71;
+}
+
+form {
+	margin-bottom: 100px;
+}
+
+.content {
+	height: 125 px;
+}
+
+#banner {
+}
